@@ -2,7 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
+a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .container {
     max-width: 1080px;
     width: 100%;
@@ -75,6 +81,7 @@ button {
   border-radius: 5%;
   border: none;
   cursor: pointer;
+  margin-bottom: 30px;
 }
 button:hover {
   background-color: #116d45;
@@ -103,7 +110,7 @@ button:hover {
   background-color: #FFCC12;
 }
 .services {
-  background-color: #E5E5E5;
+  background-color: #474747;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -111,6 +118,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 .serv {
   display: flex;
@@ -126,23 +134,23 @@ button:hover {
   margin-bottom: 20px;
   margin-top: 10px;
   color: #00401E;
+  text-shadow: 0.3px 0.3px 5px #E5E5E5;
 }
 
 .serv p {
   font-family: 'Montserrat';
   font-weight: lighter;
   font-size: 15px;
+  color:white;
 }
 .serv img {
   width: 100px;
 }
 .aboutus {
-  background-color: #474747;
   padding-top: 30px;
+  background-color: #E5E5E5;
 }
-.aboutus  .tittle h1 {
-  color: white;
-}
+
 .about-area {
   display: flex;
   margin-top: 30px;
@@ -165,18 +173,29 @@ button:hover {
   font-family: 'Montserrat';
   font-size: 20px;
   letter-spacing: 2px;
-  color: white;
+  color: black;
 }
+
 .prices {
   background-color: #E5E5E5;
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 .area-price {
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
-  
+  align-items: center;
+  margin-bottom: 50px
+}
+.price-tittle {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-family: 'Montserrat';
+  color: #00401E;
+  border-top: solid 1px black;
 }
 .price-area {
   border: solid 1px black;
