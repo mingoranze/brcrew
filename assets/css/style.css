@@ -176,7 +176,19 @@ button:hover {
   letter-spacing: 2px;
   color: black;
 }
-
+.area-valores {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.price {
+    margin-left:10px;
+    display: flex;
+}
+.price-section {
+  display: flex;
+  flex-direction:column;
+}
 .prices {
   background-color: #E5E5E5;
   padding-top: 30px;
@@ -188,7 +200,7 @@ button:hover {
   justify-content: space-around;
   margin-top: 40px;
   align-items: center;
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 .price-tittle {
   display: flex;
@@ -196,7 +208,7 @@ button:hover {
   align-items:center;
   font-family: 'Montserrat';
   color: #00401E;
-  border-top: solid 1px black;
+  
 }
 .price-area {
   border: solid 1px black;
@@ -267,6 +279,18 @@ button a {
 }
 .price-desc button {
   margin-bottom: 1px;
+}
+.area-extras {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.extras-item {
+  width: 400px;
+  padding: 30px;
+ 
 }
 footer {
   background-color: black;
